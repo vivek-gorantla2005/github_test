@@ -1,10 +1,10 @@
 class GreetUser {
-    username = "";
+    username1 = "";
     constructor(username) {
-        this.username = username;
+        this.username1 = username;
     }
     greet() {
-        console.log(`Hello ${this.username}`);
+        console.log(`Hello ${this.username1}`);
     }
 }
 
