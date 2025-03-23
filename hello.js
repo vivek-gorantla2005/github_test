@@ -22,6 +22,10 @@ class GreetUser {
         console.log(`New Branch is created`);
     }
 
+    friend(){
+        console.log(`Friend is added`);
+    }
+
 }
 
 g = new GreetUser('vivek');
@@ -29,3 +33,4 @@ g.greet();
 g.age();
 g.email();
 g.newBranch();
+g.friend();
