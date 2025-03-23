@@ -18,9 +18,14 @@ class GreetUser {
         console.log(`Email is ${this.email}`);
     }
 
+    newBranch(){
+        console.log(`New Branch is created`);
+    }
+
 }
 
 g = new GreetUser('vivek');
 g.greet();
 g.age();
 g.email();
+g.newBranch();
