@@ -23,7 +23,7 @@ class GreetUser {
     }
 
     friendfet(){
-        console.log(`Friend is added`);
+        console.log(`Friend is added feature and it was a nice one`);
     }
 
 }
