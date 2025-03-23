@@ -22,7 +22,7 @@ class GreetUser {
         console.log(`New Branch is created`);
     }
 
-    friend(){
+    friendfet(){
         console.log(`Friend is added`);
     }
 
@@ -33,4 +33,4 @@ g.greet();
 g.age();
 g.email();
 g.newBranch();
-g.friend();
+g.friendfet();
